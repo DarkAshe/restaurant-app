@@ -63,6 +63,7 @@
 
     <script src="{{ asset('admin/js/jquery.cookie.js') }}" type="text/javascript"></script>
     @livewireScripts
+
 </body>
 
 </html>
