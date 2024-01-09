@@ -1,0 +1,38 @@
+Pentru a instala Laravel, este necesar să urmezi pașii specifici care implică instalarea composerului, apoi crearea unui proiect Laravel folosind composer. Iată pașii de bază:
+
+Pași pentru instalarea Laravel:
+
+1. Instalarea Composer:
+   - Laravel folosește Composer pentru gestionarea dependențelor și pentru instalarea framework-ului. Dacă nu ai instalat Composer, poți descărca și instala ultima versiune de pe [site-ul oficial Composer](https://getcomposer.org/).
+
+2. Crearea unui Proiect Laravel:
+   - Deschide terminalul sau linia de comandă și navighează în directorul în care dorești să creezi proiectul Laravel.
+   - Rulează următoarea comandă pentru a crea un proiect Laravel:
+     ```bash
+     composer create-project --prefer-dist laravel/laravel nume-proiect
+     ```
+     Înlocuiește "nume-proiect" cu numele pe care dorești să îl dai proiectului tău Laravel.
+
+3. Configurarea Mediului:
+   - După ce comanda se termină de executat, navighează în directorul proiectului creat:
+     ```bash
+     cd nume-proiect
+     ```
+   - Copiază fișierul `.env.example` și salvează-l ca `.env`. Aceasta este configurația mediului tău și trebuie să fie configurată corect pentru a funcționa aplicația.
+
+4. Generarea Cheilor de Aplicație:
+   - În interiorul proiectului, rulează comanda pentru a genera cheile de aplicație Laravel:
+     ```bash
+     php artisan key:generate
+     ```
+
+5. Rularea Aplicației:
+   - Folosește comanda Artisan pentru a rula serverul de dezvoltare:
+     ```bash
+     php artisan serve
+     ```
+   - Deschide browser-ul și accesează `http://localhost:8000`. Dacă vezi pagina de start Laravel, instalarea a reușit.
+
+Acești pași reprezintă o instalare de bază. În plus față de acești pași inițiali, ar trebui să consulți documentația Laravel pentru a afla mai multe despre configurare, rute, controlere și altele.
+
+Este important să menționăm că acești pași pot fi modificați în funcție de actualizările și modificările care au avut loc în Laravel după data ultimei mele actualizări în ianuarie 2022. Verifică întotdeauna [documentația oficială a Laravel](https://laravel.com/docs) pentru cele mai recente informații.

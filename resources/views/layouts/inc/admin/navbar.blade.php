@@ -19,7 +19,7 @@
                     </div>
                     <input type="text" class="form-control" placeholder="Search now" aria-label="search"
                         aria-describedby="search">
-                </div>
+                 </div>
             </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
